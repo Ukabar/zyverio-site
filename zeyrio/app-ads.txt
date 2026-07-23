@@ -1,4 +1,0 @@
-# Zyverio app-ads.txt
-# Add authorized advertising seller records here when an advertising account is configured.
-# For AdMob, insert the exact line provided in Google AdMob under Apps > app-ads.txt.
-# Do not add publisher IDs until they are issued by the advertising platform.

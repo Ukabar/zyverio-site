@@ -49,6 +49,6 @@ if (contactForm && formStatus) {
     );
 
     formStatus.textContent = "Opening your email app with the message prepared.";
-    window.location.href = `mailto:contact@zyverio.com?subject=${subject}&body=${message}`;
+    window.location.href = `mailto:hornet.devlo@gmail.com?subject=${subject}&body=${message}`;
   });
 }

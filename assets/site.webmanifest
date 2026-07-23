@@ -1,0 +1,17 @@
+{
+  "name": "Zyverio",
+  "short_name": "Zyverio",
+  "description": "Clean, fast and privacy-focused iOS applications.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f7f8fb",
+  "theme_color": "#1769ff",
+  "icons": [
+    {
+      "src": "/icons/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

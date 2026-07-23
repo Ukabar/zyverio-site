@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Zyverio">
+  <defs>
+    <linearGradient id="g" x1="22" x2="158" y1="18" y2="162" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1769ff"/>
+      <stop offset=".55" stop-color="#18b6a7"/>
+      <stop offset="1" stop-color="#ff7a59"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="42" fill="url(#g)"/>
+  <path fill="#fff" d="M48 51h85a9 9 0 0 1 6.58 15.14L74.7 133H137v20H49.8a9 9 0 0 1-6.58-15.14L108.1 71H48z"/>
+</svg>

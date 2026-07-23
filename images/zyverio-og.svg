@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Zyverio preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1200" y1="0" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7f8fb"/>
+      <stop offset="1" stop-color="#dff7f4"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#1769ff"/>
+      <stop offset="1" stop-color="#18b6a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="82" y="105" width="170" height="170" rx="42" fill="url(#mark)"/>
+  <path fill="#fff" d="M126 154h80a9 9 0 0 1 6.6 15.1L151 233h58v22h-82a9 9 0 0 1-6.6-15.1L182 176h-56z"/>
+  <text x="82" y="380" fill="#111318" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800">Zyverio</text>
+  <text x="88" y="450" fill="#636a76" font-family="Inter, Arial, sans-serif" font-size="36">Clean, fast, privacy-focused iOS apps.</text>
+  <rect x="820" y="84" width="230" height="460" rx="46" fill="#10141c"/>
+  <rect x="838" y="104" width="194" height="420" rx="34" fill="#eef5ff"/>
+  <circle cx="884" cy="162" r="28" fill="#1769ff"/>
+  <rect x="870" y="228" width="128" height="24" rx="12" fill="#cfdcff"/>
+  <rect x="870" y="276" width="92" height="24" rx="12" fill="#b7f1e9"/>
+  <rect x="870" y="390" width="128" height="70" rx="20" fill="#fff"/>
+</svg>

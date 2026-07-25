@@ -495,23 +495,41 @@ li {
   border-radius: 28px;
   box-shadow: 0 18px 42px rgba(17, 19, 24, 0.1);
   display: grid;
+  margin: 0;
   min-height: 360px;
   overflow: hidden;
-  padding: 1rem;
+  padding: 0;
   place-items: center;
+  position: relative;
 }
 
-.screenshot-inner {
+.screenshot-image {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+.screenshot-fallback {
   background: color-mix(in srgb, var(--surface-strong), transparent 10%);
   border: 1px solid var(--line);
   border-radius: 20px;
   color: var(--muted);
-  display: grid;
-  height: 100%;
+  display: none;
+  inset: 1rem;
   padding: 1rem;
   place-items: center;
+  position: absolute;
   text-align: center;
-  width: 100%;
+}
+
+.screenshot.is-missing .screenshot-image {
+  display: none;
+}
+
+.screenshot.is-missing .screenshot-fallback {
+  display: grid;
 }
 
 .meta-table {

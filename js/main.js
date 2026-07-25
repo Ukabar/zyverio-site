@@ -52,3 +52,9 @@ if (contactForm && formStatus) {
     window.location.href = `mailto:hornet.devlo@gmail.com?subject=${subject}&body=${message}`;
   });
 }
+
+document.querySelectorAll(".screenshot-image").forEach((image) => {
+  image.addEventListener("error", () => {
+    image.closest(".screenshot")?.classList.add("is-missing");
+  });
+});
